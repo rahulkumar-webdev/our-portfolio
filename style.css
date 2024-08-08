@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: rgb(168,218,220);
+}
+/* the navbar height and width */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient( rgb(230,57,70), rgb(241,250,238));
+    
+}
+ul{
+    margin-right: 100px;
+}
+a{
+text-decoration: none;
+
+}
+ul li a{
+   
+   padding-left: 20px;
+   margin-right: 20px; 
+   font-weight: bold;
+   color: rgb(29,53,87 );
+}
+/* h1{
+    text-shadow:0 1px 0 rgba(255,255,255,0.5),0 0 10px rgba(255,255,255,0.3),0 0 15px rgba(255,255,255,0.1)
+} */
+li{
+    list-style-type: none;
+    display: inline;
+    
+}
+/* -------------------------------- */
+/* rahul adjm */
+.hone{
+    color: red;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+}
+/* middle-------------------------- layer */
+.midle-layer{
+height: 500px;
+width: 45vw;
+padding-top: 150px;
+padding-left: 15vw;
+background: red;
+}
+.midle-layer h1{
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 10px;
+    color: yellow;
+}
+.midle-layer h3{
+    padding-bottom: 10px;
+    color: rgb(149, 144, 234);
+}
+.midle-layer p{
+    color: white;
+}
+/* buttons */
+.midle-layer button{
+    height: 30px;
+    width: 70px;
+    border-radius:5px;
+    margin-top: 30px;
+    background-color: rgb(69,123,157);
+    border-style: none;
+    color:rgb(230,57,70) ;
+}
+.btn1{
+    margin-right: 10vw;
+}
+.links{
+    height: 30px;
+    width: 20vw;
+
+    position: relative;
+    top: 80px;
+    left: -10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+/* photo alignment */
+.my-photo{
+    position:absolute;
+    left: 55vw;
+    height: 60vh;
+    width: 40vw;
+    background-size: cover;
+}
