@@ -1,50 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .contener{
     height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    background:rgb(42,157,143);
+    background-size: cover;
+    background-image: url(nature.jpeg);
+    
   }
   .mid-box{   
     border-radius: 20px;
-    height: 50vh;
-    width: 50vw;
-    background: rgb(38,70,83);
+    height: 55vh;
+    width: 30vw;
+    background: rgb(17, 103, 17);
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .nature{
 
+    position:relative;
+    height: 100vh;
 
+    width: 100vw;
   }
   .mid-box h1{
     text-align: center;
     color: rgb(233,196,106);
     cursor: pointer;
+    padding-top: 2rem;
   }
   input{
     color: rgb(231,111,81);
     position: relative;
     top: 10%;
-    height: 50px;
-    width: 40vw;
+    height: 10%;
+    width: 80%;
     margin-bottom: 5%;
     padding-left: 10%;
-    
     border-radius: 2rem;
+    border: none;
    
   }
-    .submit{
+  #feedback{
+   
+    height: 30%; 
+    width: 80%;
+    margin-top:6vh;
+    border-radius: 1rem;
+    padding-left: 10%;
+  }
+    #sub-btn{
         position:relative;
-        top: 10%;
+        top: 6%;
         left: 25%;
         text-align: center;
-        height: 10%;
+        height: 8%;
         width: 20%;
         border-radius: 0.7rem;
         border: none; 
+        font-size: 1vw;
+        font-weight: bold;
     }
-    .submit:hover{
+    #sub-btn:hover{
         background: rgb(244,162,67);
         cursor: pointer;
     }
+a{
+  text-decoration: none;
+  color: rgb(211, 211, 25);
+  background-color:rgb(131, 195, 147);
+  position: absolute;
+ top: 10px;
+ left: 20px;
+ padding: 0.5rem;
+ border: none;
+ border-radius: 0.8rem;
+}
