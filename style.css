@@ -12,7 +12,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     background: linear-gradient( rgb(230,57,70), rgb(241,250,238));
-    
+    height: 7vh;
+    font-size: 1.7vh;
 }
 ul{
     margin-right: 100px;
@@ -49,7 +50,7 @@ li{
 .midle-layer{
 
 position: absolute;
-top: 40vh;
+top: 36vh;
 left: 30vh;
 font-size: 1.7rem;
 }
@@ -68,8 +69,11 @@ font-size: 1.7rem;
 }
 /* buttons */
 .midle-layer button{
-    height: 30px;
-    width: 70px;
+    cursor: pointer;
+
+    color: #000;
+    height:5vh ;
+    width:10vh ;
     border-radius:5px;
     margin-top: 30px;
     background-color: rgb(69,123,157);
@@ -89,15 +93,19 @@ font-size: 1.7rem;
     
 }
 .links i{
+    cursor: pointer;
     height: 10vh;
     margin-top:10vh ;
 }
 /* photo alignment */
 .my-photo{
+    cursor: pointer;
   position: absolute;
-
-  top:1px;
-    background-size: cover;
+  top:27vh;
+  left:60vw;
+  height: 50vh;
+  width: 35vw;
+    
 }
 .hh{
     font-size: 100px;
@@ -108,12 +116,7 @@ font-size: 1.7rem;
         background: pink;
     }
     .my-photo{
-        position: relative;
-        top: 10px;
-        left: 10px;
-        height: 45vh;
-        width:70vw ;
-        margin-bottom: 100px;
+        position: absolute;
     }
     .midle-layer{
         background-color: pink;
