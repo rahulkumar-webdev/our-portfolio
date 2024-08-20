@@ -47,11 +47,11 @@ li{
 }
 /* middle-------------------------- layer */
 .midle-layer{
-height: 500px;
-width: 45vw;
-padding-top: 150px;
-padding-left: 15vw;
-background: red;
+
+position: absolute;
+top: 40vh;
+left: 30vh;
+font-size: 1.7rem;
 }
 .midle-layer h1{
     font-weight: bold;
@@ -80,25 +80,64 @@ background: red;
     margin-right: 10vw;
 }
 .links{
-    height: 30px;
-    width: 20vw;
-
     position: relative;
-    top: 80px;
-    left: -10px;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
+
     
+}
+.links i{
+    height: 10vh;
+    margin-top:10vh ;
 }
 /* photo alignment */
 .my-photo{
-    position:absolute;
-    left: 55vw;
-    height: 60vh;
-    width: 40vw;
+  position: absolute;
+
+  top:1px;
     background-size: cover;
 }
 .hh{
     font-size: 100px;
+}
+/* midea query sterted */
+@media only screen and (max-width:1024px) {
+    body{
+        background: pink;
+    }
+    .my-photo{
+        position: relative;
+        top: 10px;
+        left: 10px;
+        height: 45vh;
+        width:70vw ;
+        margin-bottom: 100px;
+    }
+    .midle-layer{
+        background-color: pink;
+        width: 100vw;
+        font-size:2vh ;
+    }
+    .midle-layer h1{
+        font-size: 5vh;
+        width: 70vw;
+    }
+    .midle-layer button{
+        height: 4vh;
+        width: 10vw;
+        position: relative;
+        top: 40px;
+    }
+    /* button */
+    .btn1{
+        margin-right:30vw;
+        color: rgb(57, 14, 14);
+
+    }
+    i{
+        height: 70vh;
+    }
+    
 }
