@@ -65,7 +65,7 @@
         width: 20%;
         border-radius: 0.7rem;
         border: none; 
-        font-size: 1vw;
+        font-size: 3vwvw;
         font-weight: bold;
     }
     #sub-btn:hover{
@@ -82,4 +82,15 @@ a{
  padding: 0.5rem;
  border: none;
  border-radius: 0.8rem;
+}
+@media only screen and (max-width:1009px) {
+  .mid-box{
+    width: 80vw;
+    height: 58vh;
+  }
+}
+@media only screen and (max-width:948px) {
+  .mid-box{
+    height: 65vh;
+  }
 }
